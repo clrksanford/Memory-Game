@@ -20,7 +20,8 @@ a:hover {
 }
 
 h1 {
-    color: rgb(2,132,130);   
+    color: rgb(2,132,130);
+    color: ;   
 }
 
 .clearfix:after {
@@ -52,10 +53,37 @@ h2 {
     margin: 8%;
 }
 
+#win {
+    margin: auto;
+    z-index: 1;
+}
+
+button {
+    margin: 20px auto;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    background: rgb(2,132,130);
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(3, 226, 222);
+}
+
 footer {
     background-color: #808080;   
 }
 
 .name {
     color: #ff0000;   
+}
+
+img {
+    height: 200px;
+    width: 150px;
+    border: solid black 1px;
+    border-radius: 10px;
+    float: left;  
 }
